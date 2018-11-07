@@ -1,0 +1,42 @@
+.skill {
+    background-color: #ffffff;
+    height: 610px;
+}
+/* .body {
+    color:  #f9d5e5;
+    position: relative;
+    
+} */
+.pro {
+    width: 50%;
+    /* margin: 10px */
+}
+.con {
+    /* position: absolute;
+    left: 0;
+    right: 0; */
+    transform: translateX(12%)
+}
+.pro-block {
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+   
+}
+.clear {
+    clear: both
+}
+.progress-bar {
+    background-color: #ddaadd
+}
+@media(max-width: 700px) {
+    .pro-block h4{
+        font-size: calc(14px + ((4 * (100vw - 320px)) / 1600));
+    }
+}
+@media(max-width: 500px) {
+    .pro-block h4{
+        font-size: calc(12px + ((4 * (100vw - 320px)) / 1600));
+    }
+}

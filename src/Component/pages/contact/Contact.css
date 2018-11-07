@@ -1,0 +1,21 @@
+.contact {
+    background-color: #ffffff;
+    background-size: cover;
+    height: 630px;
+}
+.frm {
+    transform: translateX(25%)
+}
+.btn {
+   border: 1px solid violet;
+   background: violet;
+   color: #ffffff;
+   outline: none
+}
+
+input::placeholder {
+    color: #000000
+}
+/* .form-control:focus {
+    outline-color: violet
+} */

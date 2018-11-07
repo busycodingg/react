@@ -1,0 +1,27 @@
+.cov {
+    background-color: #eee;
+    height: 600px;
+}
+div .card {
+    background-color: #eee
+}
+h4 {
+    /* color: #000000 */
+}
+.dflex {
+    transform: translateX(12%)
+}
+img {
+ 
+}
+@media(max-width: 700px) {
+    .cov h4, p{
+        font-size: calc(12px + ((4 * (100vw - 320px)) / 1600));
+    }
+}
+
+@media(max-width: 500px) {
+    .cov h4, p{
+        font-size: calc(9px + ((4 * (100vw - 320px)) / 1600));
+    }
+}
